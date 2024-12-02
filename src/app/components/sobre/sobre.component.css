@@ -1,0 +1,42 @@
+/* INICIO SOBRE */
+
+#containersobre {
+    padding: 2rem;
+    margin: 2rem;
+}
+
+#sobrebanner img {
+max-height: 25vw;
+margin: 1rem;
+}
+
+#headline-sobre {
+font-size: 16px;
+margin: 1rem 0;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #containersobre {
+    display: flex;
+    flex-direction: column;
+}
+
+#sobrebanner img {
+max-height: 50vw;
+margin: 2rem;
+}
+
+}
+
+    
+@media only screen and (max-width: 700px) {
+
+    #containersobre {
+    padding: 1rem;
+    margin: 0rem;
+}
+
+}
+
+/* FIM SOBRE */

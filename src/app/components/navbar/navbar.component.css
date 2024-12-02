@@ -1,0 +1,20 @@
+nav {
+    padding: 1rem;
+}
+
+li a {
+  color: var(--color-white);
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+li a:hover {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.navbar-toggler{
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: var(--color-primary);
+}
